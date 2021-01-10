@@ -30,6 +30,9 @@ install -Dm0755 ipcalc %{buildroot}%{_bindir}/%{name}
 %{_bindir}/%{name}
 
 %changelog
+* Sun Jan 10 2021 losuler <losuler@posteo.net> - 0.41-4
+- Use SHA512 in sources file
+
 * Wed Aug 21 2019 Artem Polishchuk <ego.cordatus@gmail.com> - 0.41-3
 - Initial package
 
